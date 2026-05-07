@@ -15,10 +15,16 @@ Fork元: [bas2bin_for_IchigoJam](https://github.com/taisukef/bas2bin_for_IchigoJ
 deno run --allow-read bin2bas.js [bin file]
 ```
 
-直接実行もできます。
+コマンドとしてインストールできます。
 
 ```sh
-./bin2bas.js [bin file]
+deno install --allow-read -n bin2bas bin2bas.js
+```
+
+インストール後は直接実行できます。
+
+```sh
+bin2bas [bin file]
 ```
 
 ## オプション

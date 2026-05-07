@@ -15,10 +15,16 @@ Forked from [bas2bin_for_IchigoJam](https://github.com/taisukef/bas2bin_for_Ichi
 deno run --allow-read bin2bas.js [bin file]
 ```
 
-You can also run it directly:
+Install it as a command:
 
 ```sh
-./bin2bas.js [bin file]
+deno install --allow-read -n bin2bas bin2bas.js
+```
+
+Then run it directly:
+
+```sh
+bin2bas [bin file]
 ```
 
 ## Options
