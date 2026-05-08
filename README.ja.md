@@ -18,7 +18,7 @@ deno run --allow-read bin2bas.js [bin file]
 コマンドとしてインストールできます。
 
 ```sh
-deno install --allow-read -n bin2bas bin2bas.js
+deno install --global --allow-read -n bin2bas bin2bas.js
 ```
 
 インストール後は直接実行できます。

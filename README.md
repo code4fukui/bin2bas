@@ -18,7 +18,7 @@ deno run --allow-read bin2bas.js [bin file]
 Install it as a command:
 
 ```sh
-deno install --allow-read -n bin2bas bin2bas.js
+deno install --global --allow-read -n bin2bas bin2bas.js
 ```
 
 Then run it directly:
